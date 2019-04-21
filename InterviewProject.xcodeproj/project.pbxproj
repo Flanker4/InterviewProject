@@ -8,15 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		A855643D226B9673008BAE13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A855643C226B9673008BAE13 /* AppDelegate.m */; };
-		A8556440226B9673008BAE13 /* InterviewProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A855643E226B9673008BAE13 /* InterviewProject.xcdatamodeld */; };
-		A8556443226B9673008BAE13 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8556442226B9673008BAE13 /* MasterViewController.m */; };
-		A8556446226B9673008BAE13 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8556445226B9673008BAE13 /* DetailViewController.m */; };
-		A8556449226B9673008BAE13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8556447226B9673008BAE13 /* Main.storyboard */; };
 		A855644B226B9676008BAE13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A855644A226B9676008BAE13 /* Assets.xcassets */; };
 		A855644E226B9676008BAE13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A855644C226B9676008BAE13 /* LaunchScreen.storyboard */; };
 		A8556451226B9676008BAE13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8556450226B9676008BAE13 /* main.m */; };
 		A855645B226B9676008BAE13 /* InterviewProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A855645A226B9676008BAE13 /* InterviewProjectTests.m */; };
 		A8556466226B9676008BAE13 /* InterviewProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8556465226B9676008BAE13 /* InterviewProjectUITests.m */; };
+		A8556479226B97D5008BAE13 /* ShiftsModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8556478226B97D5008BAE13 /* ShiftsModule.storyboard */; };
+		A855647D226BA0B8008BAE13 /* IPShiftResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A855647B226BA0B7008BAE13 /* IPShiftResponse.m */; };
+		A8556483226BA1D7008BAE13 /* ApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A8556482226BA1D7008BAE13 /* ApiClient.m */; };
+		A8556485226BA2DF008BAE13 /* shifts.json in Sources */ = {isa = PBXBuildFile; fileRef = A8556484226BA2DF008BAE13 /* shifts.json */; };
+		A8556489226BA6E5008BAE13 /* Shift.m in Sources */ = {isa = PBXBuildFile; fileRef = A8556488226BA6E5008BAE13 /* Shift.m */; };
+		A855648C226BA77E008BAE13 /* LocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = A855648B226BA77E008BAE13 /* LocalStorage.m */; };
+		A8556494226BAC39008BAE13 /* Shift+IPShift.m in Sources */ = {isa = PBXBuildFile; fileRef = A8556493226BAC39008BAE13 /* Shift+IPShift.m */; };
+		A8556498226BAD61008BAE13 /* DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A8556497226BAD61008BAE13 /* DateUtils.m */; };
+		A855649C226BB278008BAE13 /* ShiftsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A855649B226BB278008BAE13 /* ShiftsTableViewController.m */; };
+		A855649F226BB412008BAE13 /* ShiftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A855649E226BB412008BAE13 /* ShiftTableViewCell.m */; };
+		A85564A0226BBD87008BAE13 /* shifts.json in Resources */ = {isa = PBXBuildFile; fileRef = A8556484226BA2DF008BAE13 /* shifts.json */; };
+		A85564A8226CD0A0008BAE13 /* ShiftDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A85564A7226CD0A0008BAE13 /* ShiftDetailsTableViewController.m */; };
+		A85564AC226CD653008BAE13 /* ShiftRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = A85564AB226CD653008BAE13 /* ShiftRouter.m */; };
+		A85564B3226CE451008BAE13 /* ShiftModuleConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = A85564B2226CE451008BAE13 /* ShiftModuleConfigurator.m */; };
+		A85564B7226CE512008BAE13 /* ShiftInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = A85564B6226CE512008BAE13 /* ShiftInteractor.m */; };
+		A85564BA226CE520008BAE13 /* ShiftPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A85564B9226CE520008BAE13 /* ShiftPresenter.m */; };
+		A85564BF226CF99A008BAE13 /* ArrayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A85564BE226CF99A008BAE13 /* ArrayUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +53,6 @@
 		A8556438226B9673008BAE13 /* InterviewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A855643B226B9673008BAE13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A855643C226B9673008BAE13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A855643F226B9673008BAE13 /* InterviewProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InterviewProject.xcdatamodel; sourceTree = "<group>"; };
-		A8556441226B9673008BAE13 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		A8556442226B9673008BAE13 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		A8556444226B9673008BAE13 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		A8556445226B9673008BAE13 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		A8556448226B9673008BAE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A855644A226B9676008BAE13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A855644D226B9676008BAE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A855644F226B9676008BAE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +63,40 @@
 		A8556461226B9676008BAE13 /* InterviewProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterviewProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8556465226B9676008BAE13 /* InterviewProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterviewProjectUITests.m; sourceTree = "<group>"; };
 		A8556467226B9676008BAE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8556478226B97D5008BAE13 /* ShiftsModule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ShiftsModule.storyboard; sourceTree = "<group>"; };
+		A855647B226BA0B7008BAE13 /* IPShiftResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPShiftResponse.m; sourceTree = "<group>"; };
+		A855647C226BA0B7008BAE13 /* IPShiftResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPShiftResponse.h; sourceTree = "<group>"; };
+		A8556481226BA1D7008BAE13 /* ApiClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiClient.h; sourceTree = "<group>"; };
+		A8556482226BA1D7008BAE13 /* ApiClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiClient.m; sourceTree = "<group>"; };
+		A8556484226BA2DF008BAE13 /* shifts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shifts.json; sourceTree = "<group>"; };
+		A8556487226BA6E5008BAE13 /* Shift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shift.h; sourceTree = "<group>"; };
+		A8556488226BA6E5008BAE13 /* Shift.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shift.m; sourceTree = "<group>"; };
+		A855648A226BA77E008BAE13 /* LocalStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalStorage.h; sourceTree = "<group>"; };
+		A855648B226BA77E008BAE13 /* LocalStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalStorage.m; sourceTree = "<group>"; };
+		A8556492226BAC39008BAE13 /* Shift+IPShift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shift+IPShift.h"; sourceTree = "<group>"; };
+		A8556493226BAC39008BAE13 /* Shift+IPShift.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Shift+IPShift.m"; sourceTree = "<group>"; };
+		A8556496226BAD61008BAE13 /* DateUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateUtils.h; sourceTree = "<group>"; };
+		A8556497226BAD61008BAE13 /* DateUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateUtils.m; sourceTree = "<group>"; };
+		A855649A226BB278008BAE13 /* ShiftsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiftsTableViewController.h; sourceTree = "<group>"; };
+		A855649B226BB278008BAE13 /* ShiftsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShiftsTableViewController.m; sourceTree = "<group>"; };
+		A855649D226BB412008BAE13 /* ShiftTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiftTableViewCell.h; sourceTree = "<group>"; };
+		A855649E226BB412008BAE13 /* ShiftTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShiftTableViewCell.m; sourceTree = "<group>"; };
+		A85564A6226CD0A0008BAE13 /* ShiftDetailsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiftDetailsTableViewController.h; sourceTree = "<group>"; };
+		A85564A7226CD0A0008BAE13 /* ShiftDetailsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShiftDetailsTableViewController.m; sourceTree = "<group>"; };
+		A85564AA226CD653008BAE13 /* ShiftRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiftRouter.h; sourceTree = "<group>"; };
+		A85564AB226CD653008BAE13 /* ShiftRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShiftRouter.m; sourceTree = "<group>"; };
+		A85564AD226CDB63008BAE13 /* ShiftViewInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiftViewInterface.h; sourceTree = "<group>"; };
+		A85564AE226CDD64008BAE13 /* ShiftRouterInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiftRouterInterface.h; sourceTree = "<group>"; };
+		A85564AF226CE0BB008BAE13 /* ShiftInteractorInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiftInteractorInterface.h; sourceTree = "<group>"; };
+		A85564B0226CE160008BAE13 /* ShiftPresenterInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiftPresenterInterface.h; sourceTree = "<group>"; };
+		A85564B1226CE451008BAE13 /* ShiftModuleConfigurator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiftModuleConfigurator.h; sourceTree = "<group>"; };
+		A85564B2226CE451008BAE13 /* ShiftModuleConfigurator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShiftModuleConfigurator.m; sourceTree = "<group>"; };
+		A85564B5226CE512008BAE13 /* ShiftInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiftInteractor.h; sourceTree = "<group>"; };
+		A85564B6226CE512008BAE13 /* ShiftInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShiftInteractor.m; sourceTree = "<group>"; };
+		A85564B8226CE520008BAE13 /* ShiftPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShiftPresenter.h; sourceTree = "<group>"; };
+		A85564B9226CE520008BAE13 /* ShiftPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShiftPresenter.m; sourceTree = "<group>"; };
+		A85564BD226CF99A008BAE13 /* ArrayUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayUtils.h; sourceTree = "<group>"; };
+		A85564BE226CF99A008BAE13 /* ArrayUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,18 +147,10 @@
 		A855643A226B9673008BAE13 /* InterviewProject */ = {
 			isa = PBXGroup;
 			children = (
-				A855643B226B9673008BAE13 /* AppDelegate.h */,
-				A855643C226B9673008BAE13 /* AppDelegate.m */,
-				A8556441226B9673008BAE13 /* MasterViewController.h */,
-				A8556442226B9673008BAE13 /* MasterViewController.m */,
-				A8556444226B9673008BAE13 /* DetailViewController.h */,
-				A8556445226B9673008BAE13 /* DetailViewController.m */,
-				A8556447226B9673008BAE13 /* Main.storyboard */,
-				A855644A226B9676008BAE13 /* Assets.xcassets */,
-				A855644C226B9676008BAE13 /* LaunchScreen.storyboard */,
-				A855644F226B9676008BAE13 /* Info.plist */,
-				A8556450226B9676008BAE13 /* main.m */,
-				A855643E226B9673008BAE13 /* InterviewProject.xcdatamodeld */,
+				A8556476226B97A7008BAE13 /* ShiftModule */,
+				A8556475226B9712008BAE13 /* Resources */,
+				A8556474226B96F1008BAE13 /* Entrypoint */,
+				A8556473226B96E5008BAE13 /* Services */,
 			);
 			path = InterviewProject;
 			sourceTree = "<group>";
@@ -138,6 +171,186 @@
 				A8556467226B9676008BAE13 /* Info.plist */,
 			);
 			path = InterviewProjectUITests;
+			sourceTree = "<group>";
+		};
+		A8556473226B96E5008BAE13 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A8556495226BAD40008BAE13 /* Utils */,
+				A855647F226BA127008BAE13 /* DataLayer */,
+				A855647E226BA11A008BAE13 /* NetworkLayer */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A8556474226B96F1008BAE13 /* Entrypoint */ = {
+			isa = PBXGroup;
+			children = (
+				A8556450226B9676008BAE13 /* main.m */,
+				A855643B226B9673008BAE13 /* AppDelegate.h */,
+				A855643C226B9673008BAE13 /* AppDelegate.m */,
+			);
+			path = Entrypoint;
+			sourceTree = "<group>";
+		};
+		A8556475226B9712008BAE13 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A855644F226B9676008BAE13 /* Info.plist */,
+				A855644C226B9676008BAE13 /* LaunchScreen.storyboard */,
+				A855644A226B9676008BAE13 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A8556476226B97A7008BAE13 /* ShiftModule */ = {
+			isa = PBXGroup;
+			children = (
+				A8556499226BB1A4008BAE13 /* Contract */,
+				A8556486226BA6D0008BAE13 /* Model */,
+				A85564BB226CE525008BAE13 /* Interactor */,
+				A85564BC226CE531008BAE13 /* Presenter */,
+				A85564A9226CD63A008BAE13 /* Router */,
+				A8556477226B97BE008BAE13 /* View */,
+				A85564B4226CE458008BAE13 /* Configurator */,
+			);
+			path = ShiftModule;
+			sourceTree = "<group>";
+		};
+		A8556477226B97BE008BAE13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A85564A5226CD081008BAE13 /* ShiftDetails */,
+				A85564A4226CD074008BAE13 /* ShiftList */,
+				A8556478226B97D5008BAE13 /* ShiftsModule.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A855647E226BA11A008BAE13 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A8556480226BA140008BAE13 /* Response */,
+				A8556481226BA1D7008BAE13 /* ApiClient.h */,
+				A8556482226BA1D7008BAE13 /* ApiClient.m */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		A855647F226BA127008BAE13 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A855648A226BA77E008BAE13 /* LocalStorage.h */,
+				A855648B226BA77E008BAE13 /* LocalStorage.m */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		A8556480226BA140008BAE13 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				A855647C226BA0B7008BAE13 /* IPShiftResponse.h */,
+				A855647B226BA0B7008BAE13 /* IPShiftResponse.m */,
+				A8556484226BA2DF008BAE13 /* shifts.json */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		A8556486226BA6D0008BAE13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8556491226BAC00008BAE13 /* Migration */,
+				A8556487226BA6E5008BAE13 /* Shift.h */,
+				A8556488226BA6E5008BAE13 /* Shift.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8556491226BAC00008BAE13 /* Migration */ = {
+			isa = PBXGroup;
+			children = (
+				A8556492226BAC39008BAE13 /* Shift+IPShift.h */,
+				A8556493226BAC39008BAE13 /* Shift+IPShift.m */,
+			);
+			path = Migration;
+			sourceTree = "<group>";
+		};
+		A8556495226BAD40008BAE13 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A85564BD226CF99A008BAE13 /* ArrayUtils.h */,
+				A85564BE226CF99A008BAE13 /* ArrayUtils.m */,
+				A8556496226BAD61008BAE13 /* DateUtils.h */,
+				A8556497226BAD61008BAE13 /* DateUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A8556499226BB1A4008BAE13 /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				A85564AD226CDB63008BAE13 /* ShiftViewInterface.h */,
+				A85564AE226CDD64008BAE13 /* ShiftRouterInterface.h */,
+				A85564AF226CE0BB008BAE13 /* ShiftInteractorInterface.h */,
+				A85564B0226CE160008BAE13 /* ShiftPresenterInterface.h */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		A85564A4226CD074008BAE13 /* ShiftList */ = {
+			isa = PBXGroup;
+			children = (
+				A855649A226BB278008BAE13 /* ShiftsTableViewController.h */,
+				A855649B226BB278008BAE13 /* ShiftsTableViewController.m */,
+				A855649D226BB412008BAE13 /* ShiftTableViewCell.h */,
+				A855649E226BB412008BAE13 /* ShiftTableViewCell.m */,
+			);
+			path = ShiftList;
+			sourceTree = "<group>";
+		};
+		A85564A5226CD081008BAE13 /* ShiftDetails */ = {
+			isa = PBXGroup;
+			children = (
+				A85564A6226CD0A0008BAE13 /* ShiftDetailsTableViewController.h */,
+				A85564A7226CD0A0008BAE13 /* ShiftDetailsTableViewController.m */,
+			);
+			path = ShiftDetails;
+			sourceTree = "<group>";
+		};
+		A85564A9226CD63A008BAE13 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A85564AA226CD653008BAE13 /* ShiftRouter.h */,
+				A85564AB226CD653008BAE13 /* ShiftRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A85564B4226CE458008BAE13 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				A85564B1226CE451008BAE13 /* ShiftModuleConfigurator.h */,
+				A85564B2226CE451008BAE13 /* ShiftModuleConfigurator.m */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		A85564BB226CE525008BAE13 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				A85564B5226CE512008BAE13 /* ShiftInteractor.h */,
+				A85564B6226CE512008BAE13 /* ShiftInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		A85564BC226CE531008BAE13 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A85564B8226CE520008BAE13 /* ShiftPresenter.h */,
+				A85564B9226CE520008BAE13 /* ShiftPresenter.m */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +456,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A85564A0226BBD87008BAE13 /* shifts.json in Resources */,
 				A855644E226B9676008BAE13 /* LaunchScreen.storyboard in Resources */,
+				A8556479226B97D5008BAE13 /* ShiftsModule.storyboard in Resources */,
 				A855644B226B9676008BAE13 /* Assets.xcassets in Resources */,
-				A8556449226B9673008BAE13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +484,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A85564B7226CE512008BAE13 /* ShiftInteractor.m in Sources */,
+				A85564BA226CE520008BAE13 /* ShiftPresenter.m in Sources */,
+				A855648C226BA77E008BAE13 /* LocalStorage.m in Sources */,
+				A85564A8226CD0A0008BAE13 /* ShiftDetailsTableViewController.m in Sources */,
+				A8556489226BA6E5008BAE13 /* Shift.m in Sources */,
+				A855649F226BB412008BAE13 /* ShiftTableViewCell.m in Sources */,
+				A8556494226BAC39008BAE13 /* Shift+IPShift.m in Sources */,
+				A8556485226BA2DF008BAE13 /* shifts.json in Sources */,
+				A855647D226BA0B8008BAE13 /* IPShiftResponse.m in Sources */,
 				A8556451226B9676008BAE13 /* main.m in Sources */,
+				A855649C226BB278008BAE13 /* ShiftsTableViewController.m in Sources */,
+				A85564AC226CD653008BAE13 /* ShiftRouter.m in Sources */,
 				A855643D226B9673008BAE13 /* AppDelegate.m in Sources */,
-				A8556443226B9673008BAE13 /* MasterViewController.m in Sources */,
-				A8556440226B9673008BAE13 /* InterviewProject.xcdatamodeld in Sources */,
-				A8556446226B9673008BAE13 /* DetailViewController.m in Sources */,
+				A85564BF226CF99A008BAE13 /* ArrayUtils.m in Sources */,
+				A8556498226BAD61008BAE13 /* DateUtils.m in Sources */,
+				A8556483226BA1D7008BAE13 /* ApiClient.m in Sources */,
+				A85564B3226CE451008BAE13 /* ShiftModuleConfigurator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,14 +536,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A8556447226B9673008BAE13 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8556448226B9673008BAE13 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A855644C226B9676008BAE13 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +665,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9K285RPTK7;
-				INFOPLIST_FILE = InterviewProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/InterviewProject/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,7 +682,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9K285RPTK7;
-				INFOPLIST_FILE = InterviewProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/InterviewProject/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -589,19 +807,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		A855643E226B9673008BAE13 /* InterviewProject.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A855643F226B9673008BAE13 /* InterviewProject.xcdatamodel */,
-			);
-			currentVersion = A855643F226B9673008BAE13 /* InterviewProject.xcdatamodel */;
-			path = InterviewProject.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = A8556430226B9673008BAE13 /* Project object */;
 }
