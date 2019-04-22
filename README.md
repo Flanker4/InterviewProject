@@ -20,3 +20,7 @@ This application developed using VIPER pattern.
 ## Installation
 
 Application doesn't use CocoaPods dependency manager so you can just open .xcodeproj file and run it
+
+(!) Requires XCode 10.2
+
+For lower version just set Deployment Target to 12.0 or whenever you need
